@@ -7,25 +7,25 @@ html { font-size: 16px; }
 .menu.active { display: flex; }
 
 /* about me */
-#section1 { padding: 7rem 0;}
-#section1 > ul { padding: 1rem 1rem; grid-template-columns: repeat(2, 1fr); margin: 0 1rem; }
+#about { padding: 7rem 0;}
+#about > ul { padding: 1rem 1rem; grid-template-columns: repeat(2, 1fr); margin: 0 1rem; }
 
 
 /* skills */
-#section2 { height: 28rem; padding: 7rem 0; }
-#section2 > ul { padding: 1rem 1rem; grid-template-columns: repeat(1, 1fr); margin: 0 1rem; }
+#skill { height: 28rem; padding: 7rem 0; }
+#skill > ul { padding: 1rem 1rem; grid-template-columns: repeat(1, 1fr); margin: 0 1rem; }
 
 
 /* project */
-#section3 { height: 182.4rem; padding: 7rem 0; }
-#section3 > .proli > .probox { padding: 2rem 0; }
-#section3 > .proli > .probox > .imgtext { margin: 1rem; display: grid; justify-content: center; }
-#section3 > .proli > .probox > .imgtext > .protext { padding: .6rem 0 0 0; }
+#project { height: 182.4rem; padding: 7rem 0; }
+#project > .proli > .probox { padding: 2rem 0; }
+#project > .proli > .probox > .imgtext { margin: 1rem; display: grid; justify-content: center; }
+#project > .proli > .probox > .imgtext > .protext { padding: .6rem 0 0 0; }
 
 
 
 /* capability */
-#section4 { height: 47rem; padding: 7rem 0 0 0;}
-#section4 > ul {display: grid;}
-#section4 > ul > li { margin: .6rem; width: 28.6rem; height: 8rem; background-color: var(--white); border-radius: 15px;}
-#section4 > ul > li > ul > li:nth-last-child(1) {font-size: .9rem;}
+#capa { height: 47rem; padding: 7rem 0 0 0;}
+#capa > ul {display: grid;}
+#capa > ul > li { margin: .6rem; width: 28.6rem; height: 8rem; background-color: var(--white); border-radius: 15px;}
+#capa > ul > li > ul > li:nth-last-child(1) {font-size: .9rem;}
